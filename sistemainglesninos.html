@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculadora IMC</title>
+	
+</head>
+<body>
+	Esta calculadora proporciona el IMC y la correspondiente categoría de nivel de peso según el IMC.
+	Puede calcular el IMC en el sistema métrico decimal (SMD), o el sistema inglés (ENG). 
+	Utilice esta calculadora para menores de 20.
+	Para mayoress de 20, utilice la <a href="index.html">calculadora de IMC para adultos. </a>
+	
+	<div>
+		<form>
+			<div>
+				<p class="header">Calculadora del IMC para niños y adolescentes (ENG)</p>
+				<p>Seleccione un sistema de medida:</p>
+				<p style = "text-align:right">
+				(<a href ="ninosyadolescentes.html">Sistema métrico decimal</a> | Sistema inglés)
+				</p>
+				<div>
+					<p><strong>1. Estatura</strong></p>
+					<label class="estatura">Pulgadas</label>
+					<input type="text" class="estatura_input">
+				
+
+				</div>
+				<div>
+					<p><strong>2. Peso</strong></p>
+						<label class="peso">Libras</label>
+				<input type="text" class="peso_input">
+				
+			</div><br>
+
+			<div>
+				<p><strong>3. Sexo</strong></p>
+				<input type="radio" value="Femenino" name="sexo" class="sexo">
+				<label>Femenino   </label>
+				<input type="radio" value="Femenino" name="sexo" class="sexo">
+				<label>Masculino</label>
+
+			</div><br>
+
+			<div align="center">
+				<input type="button" class="calcular_boton" value="Calcular" >
+			</div>
+			</div>			
+		</form>
+	</div>
+	<footer>Creada por: ®Facundo Trigo</footer>
+</body>
+</html>

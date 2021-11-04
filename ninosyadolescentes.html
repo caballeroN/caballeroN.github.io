@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+        
+        <title> Formulario de Acceso </title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+	
+</head>
+<body>
+	<div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                <div id="login">
+                    <form id="loginform">
+                        <p class="header">Calculadora del IMC para niños y adolescentes (SMD)</p>
+                        
+                        <p>(Sistema métrico decimal | <a href="sistemaingles.html">Sistema inglés</a>)</p>
+                        <label for="estatura">Estatura (cm)</label>
+                        <input id="estatura" type="text" name="estatura" placeholder="Ingrese la estatura en cm">
+                        <label for="estatura">Estatura (m)</label>
+                        <input id="estatura" type="text" name="estatura" placeholder="Ingrese la estatura en m">
+
+                        <label for="peso">Peso</label>
+                        <input id="peso" type="text" placeholder="Ingrese el peso en kg" name="peso" required>
+
+                        <p><label for="sexo">Femenino</label>
+                        <input id="sexo" type="radio" name="sexo" value="femenino" required>
+                        <label for="sexo">Masculino</label>
+                        <input id="sexo" type="radio" name="sexo" value="masculino" required></p>
+                        
+                        <button type="submit" title="Calcular" name="Calcular">Calcular</button>
+                    </form>
+                    
+                </div>
+                <div id="derecho">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <hr>
+                    <div class="pie-form">
+                        Esta calculadora proporciona el IMC y la correspondiente categoría de nivel de peso según el IMC.
+                        Puede calcular el IMC en el sistema métrico decimal (SMD), o el sistema inglés (ENG).
+                        Utilice esta calculadora para menoress de 20.
+                        Para mayores de 20, utilice la <a href="index.html">calculadora de IMC para adultos. </a>
+                    
+                        <hr>
+                        <a href="#">« Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
